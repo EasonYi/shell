@@ -16,7 +16,7 @@ if [[ ! -s $filename ]]; then
 fi
 if [[ ! -f $filename ]]; then
   echo "Error: $filename is not a regular file"
-  exit 2
+  exit 4
 fi
 
 echo "Unique lines of file: $filename"
