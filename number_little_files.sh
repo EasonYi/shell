@@ -10,6 +10,6 @@ echo "File max size: $filemaxsize"
 i=0
 for f in $(find . -maxdepth 1 -type f -size -${filemaxsize}); do
   echo $((++i)): $f;
-  nl $f;
+  nl -ba $f;
 done
 echo "File max size: $filemaxsize, Matched files: $i"
