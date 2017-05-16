@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Eason Yi
-# Date: $(date +'2017-05-15')
+# Date: 2017-05-15
 
 function checkFilename(){
   local f=$1
