@@ -16,9 +16,9 @@ cmd_file_type=$(file $cmd_path)
 if [[ -z $(echo $cmd_file_type|grep text) ]]; then
   echo "It's a binary command"
 elif [[ -n $(find $(dirname $cmd_path) -name $(basename $cmd_path) -size -20k) ]]; then
-  cat $cmd_path
+  cat "$cmd_path"
 else
-  head -200 $cmd_path
+  head -200 "$cmd_path"
 fi
 
 echo

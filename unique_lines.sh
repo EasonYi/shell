@@ -21,5 +21,5 @@ fi
 
 echo "Unique lines of file: $filename"
 echo "No. Line Content"
-awk '!x[$0]++ {print(++i,"  ",NR,"  ",$0)}' $filename
+awk '!x[$0]++ {print(++i,"  ",NR,"  ",$0)}' "$filename"
 
