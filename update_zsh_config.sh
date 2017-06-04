@@ -4,3 +4,7 @@
 
 shell_dir=$(which $0|xargs dirname)
 cp $shell_dir/zsh/*.zsh ~/.oh-my-zsh/custom/
+
+cd ~
+source ~/.zshrc
+cd $shell_dir
