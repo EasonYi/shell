@@ -16,7 +16,7 @@ for d in $(dir); do
   echo "[INFO] Update ... $d ... ($i /${t#     })"
   let i++
   cd $d
-  git pull
+  git pull --rebase
   cd ..
 done
 
