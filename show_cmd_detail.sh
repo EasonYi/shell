@@ -1,6 +1,7 @@
 #!/bin/bash
 # Author: Eason Yi
 # Date: 2017-05-20
+set -e
 
 if [[ -z $1 ]]; then
   echo "Usage: $0 cmd_name"
@@ -9,6 +10,11 @@ fi
 
 cmd_name=$1
 cmd_path=$(which "$cmd_name")
+cat "$cmd_path"
+if [[ $cmd_path =~ 'aliased to' ]]; then
+  cat "$cmd_path"
+  exit 0
+fi
 cmd_true_path=$(ls -lh "$cmd_path")
 cmd_size=$(echo "$cmd_true_path"|awk '{print $5}')
 cmd_file_type=$(file "$cmd_path")
