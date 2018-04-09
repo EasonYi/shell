@@ -3,7 +3,6 @@ adium
 alfred
 android-file-transfer
 android-studio
-angry-ip-scanner
 appcode
 arduino
 atom
@@ -32,13 +31,12 @@ genymotion
 gitbook-editor
 gogland-eap
 google-chrome
-google-drive
-google-photos-backup
 intellij-idea
 iterm2
 jad
 java
 java7
+java8
 jitouch
 lantern
 lyn
@@ -46,11 +44,10 @@ macdown
 mactex
 macvim
 mindjet-mindmanager
-minikube
 mongodb
-mou
+mono-mdk
+ngrok
 node-profiler
-omnigraffle
 openoffice
 osxfuse
 owasp-zap
@@ -61,10 +58,13 @@ pref-setter
 processing
 pycharm
 qq
+react-native-debugger
+robo-3t
 rubymine
 sequel-pro
 shadowsocksx
 shortcat
+slack
 snip
 spark-inspector
 staruml
@@ -75,7 +75,6 @@ the-unarchiver
 typora
 unity
 unrarx
-vagrant
 virtualbox
 visual-studio
 visual-studio-code
@@ -88,5 +87,4 @@ xamarin
 xnviewmp
 xscope
 yed
-youku
 zotero
