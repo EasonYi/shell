@@ -29,7 +29,6 @@ camlp4
 cassandra
 ccache
 chromedriver
-clasp
 clingo
 cloc
 cmake
@@ -79,6 +78,7 @@ gettext
 gflags
 ghc
 ghc@8.0
+ghostscript
 git
 git-extras
 git-flow
@@ -87,7 +87,6 @@ glide
 glog
 gmp
 gnupg
-gnupg2
 gnutls
 go
 go@1.9
@@ -100,7 +99,6 @@ gradle
 grails
 graphite2
 graphviz
-gringo
 groovy
 gx
 gx-go
@@ -109,9 +107,7 @@ haproxy
 harfbuzz
 hive
 htop
-htop-osx
 httpd
-httpd24
 httpie
 hydra
 icu4c
@@ -166,7 +162,6 @@ little-cms2
 llnode
 logstash
 lua
-lua@5.3
 luajit
 luarocks
 macvim
@@ -174,7 +169,6 @@ maven
 memcached
 mercurial
 mesos
-mobile-shell
 mongodb
 mosh
 mpfr
@@ -200,7 +194,6 @@ ocamlbuild
 oniguruma
 opam
 opencv
-opencv3
 openexr
 openresty
 openssl
@@ -215,7 +208,6 @@ perl
 pg_top
 pgcli
 php
-php72
 pig
 pinentry
 pixman
@@ -227,10 +219,8 @@ putty
 pyenv
 pyenv-virtualenv
 python
-python3
 python@2
 qt
-qt5
 rabbitmq
 readline
 reattach-to-user-namespace

@@ -10,11 +10,12 @@ echo
 echo ">>>brew cask list..."
 time brew cask list > $cur_dir/brew/brewcask.list
 echo
-echo ">>>pip list..."
-time pip list > $cur_dir/pip/pip.list
+mkdir -p $cur_dir/pip
+echo ">>>pip2 freeze..."
+time pip2 freeze > $cur_dir/pip/pip2.list
 echo
-echo ">>>pip3 list..."
-time pip3 list > $cur_dir/pip/pip3.list
+echo ">>>pip3 freeze..."
+time pip3 freeze > $cur_dir/pip/pip3.list
 echo
 echo ">>>npm list..."
 time npm list -g --depth 0 > $cur_dir/npm/npm.list

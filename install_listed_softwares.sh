@@ -12,9 +12,12 @@ brew tap homebrew/core
 brew tap kong/kong
 brew tap pivotal/tap
 
-brew cask install java
-brew cask install java8
+brew install python python2
+brew cask install java java8
+
+./pip3_install.sh
+./pip_install.sh
 
 ./brew_cask_install.sh
-
 ./brew_install.sh
+
