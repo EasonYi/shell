@@ -1,3 +1,4 @@
+alias nlg='npm list -g -depth 0'
 alias 'gc!'='git commit -v --amend'
 alias 'gca!'='git commit -v -a --amend'
 alias 'gcan!'='git commit -v -a --no-edit --amend'
