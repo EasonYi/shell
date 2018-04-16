@@ -95,13 +95,11 @@ gobject-introspection
 godep
 googler
 govendor
-gp-xerces
 gpg-agent
 gradle
 grails
 graphite2
 graphviz
-greenplum-db
 gringo
 groovy
 gx
@@ -205,7 +203,6 @@ opencv
 opencv3
 openexr
 openresty
-openresty-openssl
 openssl
 openssl@1.1
 p11-kit

@@ -9,18 +9,18 @@ export LDFLAGS=-L/usr/local/opt/openssl/lib
 export CPPFLAGS=-I/usr/local/opt/openssl/include
 
 #Android
-export ANDROID_HOME=/Users/eason/gitwork/client/android/android-sdk-macosx
+export ANDROID_HOME=/Users/eason/work/client/android/android-sdk-macosx
 export ANDROID_SDK=$ANDROID_HOME
 
 # Postgres
 export PGDATA="/usr/local/var/postgres"
 
 # go path
-export GOPATH="/Users/eason/gitwork/mygo"
+export GOPATH="/Users/eason/work/mygo"
 export GOROOT="/usr/local/opt/go/libexec"
 
 # system path
-export PATH="/Users/eason/.pyenv/shims:/Users/eason/.pyenv/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:${GOROOT}/bin:${GOPATH}/bin:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$ANDROID_SDK/build-tools/android-5.1:~/gitwork/practice/shell:$PATH:/Users/eason/tools:/Users/eason/gitwork/shell"
+export PATH="/Users/eason/.pyenv/shims:/Users/eason/.pyenv/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:${GOROOT}/bin:${GOPATH}/bin:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$ANDROID_SDK/build-tools/android-5.1:$PATH:/Users/eason/tools:/Users/eason/work/shell"
 
 export EDITOR='vim'
 export HOMEBREW_GITHUB_API_TOKEN=6a097a3f7ded5843577703f0b2f8296b0e0f8586
@@ -39,13 +39,13 @@ export CATALINA_HOME=$TOMCAT_HOME
 export CATALINA_PID=$TOMCAT_HOME/catalina_pid.txt
 
 # cassandra settings
-export CASSANDRA_CONF=~/Downloads/cassandra-cassandra-2.1.3/conf
-export CLASSPATH=.:$CASSANDRA_CONF/../lib:$CLASSPATH
+#export CASSANDRA_CONF=~/Downloads/cassandra-cassandra-2.1.3/conf
+#export CLASSPATH=.:$CASSANDRA_CONF/../lib:$CLASSPATH
 
-export HOMEBREW_CASK_OPTS="--caskroom=/opt/homebrew-cask/Caskroom ${HOMEBREW_CASK_OPTS}"
+#export HOMEBREW_CASK_OPTS="--caskroom=/opt/homebrew-cask/Caskroom ${HOMEBREW_CASK_OPTS}"
 
 # metasploit-framework
-export MSF_DATABASE_CONFIG=/Users/eason/gitwork/hacker/metasploit-framework/config/database.yml
+export MSF_DATABASE_CONFIG=/Users/eason/work/hacker/metasploit-framework/config/database.yml
 
 # Autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
