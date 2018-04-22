@@ -1,3 +1,5 @@
+alias gac='git add . && git commit'
+alias gacp='git add . && git commit && git push'
 alias nlg='npm list -g -depth 0'
 alias 'gc!'='git commit -v --amend'
 alias 'gca!'='git commit -v -a --amend'

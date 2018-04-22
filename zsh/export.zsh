@@ -16,7 +16,7 @@ export ANDROID_SDK=$ANDROID_HOME
 export PGDATA="/usr/local/var/postgres"
 
 # go path
-export GOPATH="/Users/eason/work/mygo"
+export GOPATH="/Users/eason/work/go"
 export GOROOT="/usr/local/opt/go/libexec"
 
 # system path
